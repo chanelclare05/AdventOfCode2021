@@ -19,4 +19,3 @@ answer = position[:forward] *  position[:depth]
 
 puts position
 puts answer
-

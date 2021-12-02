@@ -13,8 +13,6 @@ while index < depth_array.length - 1
   end 
 end 
 
-puts "The answer for day 1, part 1 is #{increased_count}"
+puts "count: #{increased_count}"
 
-
-# puts depth_array.each_cons(2).count { |a, b| b > a }
 
