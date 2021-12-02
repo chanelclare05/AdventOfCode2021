@@ -4,7 +4,6 @@ course = File.read("data.txt").split.map(&:to_s)
 position = { :forward => 0 , :depth => 0 }
 
 i = 0
-
 while i < course.length - 1
   if course[i] == "forward"
     position[:forward] += course[i+1].to_i
@@ -16,10 +15,8 @@ while i < course.length - 1
   i += 1
 end 
 
-answer = position[:forward] * position[:depth] 
+answer = position[:forward] *  position[:depth] 
 
 puts position
 puts answer
 
-
-# puts depth_array.each_cons(3).map(&:sum).each_cons(2)count { |a, b| b > a }
